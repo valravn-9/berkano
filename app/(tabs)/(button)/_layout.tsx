@@ -1,7 +1,7 @@
 import { Stack } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 
-const OneTabLayout = () => {
+const ButtonTabLayout = () => {
   const { t } = useTranslation();
 
   return (
@@ -9,14 +9,13 @@ const OneTabLayout = () => {
       <Stack.Screen
         name="index"
         options={{
-          headerLargeTitle: true,
           headerTitleStyle: { fontFamily: 'Norse-Bold' },
           headerLargeTitleStyle: { fontFamily: 'Norse-Bold' },
-          headerTitle: t('one'),
+          headerTitle: t('button'),
         }}
       />
     </Stack>
   );
 };
 
-export default OneTabLayout;
+export default ButtonTabLayout;

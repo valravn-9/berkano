@@ -1,7 +1,7 @@
 import { Tabs } from 'expo-router';
 import { BlurView } from 'expo-blur';
 import { Platform } from 'react-native';
-import { FontAwesome6 } from '@expo/vector-icons';
+import { MaterialIcons } from '@expo/vector-icons';
 import { useTranslation } from 'react-i18next';
 
 const TabsLayout = () => {
@@ -32,27 +32,19 @@ const TabsLayout = () => {
       }}
     >
       <Tabs.Screen
-        name="(one)"
+        name="(button)"
         options={{
           headerShown: false,
-          title: t('one'),
-          tabBarIcon: ({ color }) => <FontAwesome6 name="1" size={20} color={color} />,
+          title: t('button'),
+          tabBarIcon: ({ color }) => <MaterialIcons name="smart-button" size={20} color={color} />,
         }}
       />
       <Tabs.Screen
-        name="two"
+        name="text"
         options={{
           headerShown: false,
-          title: t('two'),
-          tabBarIcon: ({ color }) => <FontAwesome6 name="2" size={20} color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="three"
-        options={{
-          headerShown: false,
-          title: t('three'),
-          tabBarIcon: ({ color }) => <FontAwesome6 name="3" size={20} color={color} />,
+          title: t('text'),
+          tabBarIcon: ({ color }) => <MaterialIcons name="text-fields" size={20} color={color} />,
         }}
       />
     </Tabs>

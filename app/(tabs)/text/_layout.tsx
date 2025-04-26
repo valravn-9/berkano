@@ -12,7 +12,7 @@ const TwoTabLayout = () => {
           headerLargeTitle: true,
           headerTitleStyle: { fontFamily: 'Norse-Bold' },
           headerLargeTitleStyle: { fontFamily: 'Norse-Bold' },
-          headerTitle: t('two'),
+          headerTitle: t('text'),
         }}
       />
     </Stack>
