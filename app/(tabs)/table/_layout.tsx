@@ -1,7 +1,7 @@
 import { Stack } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 
-const TwoTabLayout = () => {
+const TableTabLayout = () => {
   const { t } = useTranslation();
 
   return (
@@ -9,14 +9,13 @@ const TwoTabLayout = () => {
       <Stack.Screen
         name="index"
         options={{
-          headerLargeTitle: true,
           headerTitleStyle: { fontFamily: 'Norse-Bold' },
           headerLargeTitleStyle: { fontFamily: 'Norse-Bold' },
-          headerTitle: t('text'),
+          headerTitle: t('table'),
         }}
       />
     </Stack>
   );
 };
 
-export default TwoTabLayout;
+export default TableTabLayout;

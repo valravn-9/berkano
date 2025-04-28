@@ -7,7 +7,7 @@ const ButtonScreen = () => {
   return (
     <ScrollView contentContainerClassName="flex-1 p-4 gap-12">
       <View className="gap-4">
-        <Text className="text-6xl">Sizes</Text>
+        <Text className="text-3xl">Sizes</Text>
         <Button size="lg" onPress={() => console.log('Button pressed!')}>
           <Text>Large</Text>
         </Button>
@@ -22,7 +22,7 @@ const ButtonScreen = () => {
         </Button>
       </View>
       <View className="gap-4">
-        <Text className="text-6xl">Variants</Text>
+        <Text className="text-3xl">Variants</Text>
         <Button variant="default" onPress={() => console.log('Button pressed!')}>
           <Text>Default</Text>
         </Button>

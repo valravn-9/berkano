@@ -40,11 +40,11 @@ const TabsLayout = () => {
         }}
       />
       <Tabs.Screen
-        name="text"
+        name="table"
         options={{
           headerShown: false,
-          title: t('text'),
-          tabBarIcon: ({ color }) => <MaterialIcons name="text-fields" size={20} color={color} />,
+          title: t('table'),
+          tabBarIcon: ({ color }) => <MaterialIcons name="table-chart" size={20} color={color} />,
         }}
       />
     </Tabs>
