@@ -1,6 +1,5 @@
 import { ScrollView, View } from 'react-native';
-import { Text } from '@/components/ui/text';
-import { Button } from '@/components/ui/button';
+import { Button, Text } from '@/components/ui';
 import { FontAwesome6 } from '@expo/vector-icons';
 
 const ButtonScreen = () => {

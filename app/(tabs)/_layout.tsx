@@ -39,14 +39,6 @@ const TabsLayout = () => {
           tabBarIcon: ({ color }) => <MaterialIcons name="smart-button" size={20} color={color} />,
         }}
       />
-      <Tabs.Screen
-        name="table"
-        options={{
-          headerShown: false,
-          title: t('table'),
-          tabBarIcon: ({ color }) => <MaterialIcons name="table-chart" size={20} color={color} />,
-        }}
-      />
     </Tabs>
   );
 };
